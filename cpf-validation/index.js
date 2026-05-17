@@ -3,15 +3,16 @@
 10  9   8   7   6   5   4   3   2
 10  18  24  28  30  30  28  24  18 = 210
 
-11 - (196 % 11) = 2
+11 - (210 % 11) = 10 
+Se o número digito for maior que 9, consideramos 0
 
 1x  2x  3x  4x  5x  6x  7x  8x  9x  0x
 11  10  9   8   7   6   5   4   3   2
 11  20  27  32  35  36  35  32  27  0 = 255
 
-11 - (234 % 11) = 8
+11 - (255 % 11) = 9
 
-541.381.048-28
+123-456-789-09
 */
 function ValidaCPF(cpfEnviado){
     Object.defineProperty(this, 'cpfLimpo', {
